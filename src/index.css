@@ -1,0 +1,233 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+#bookmark{
+position: relative;
+left: 0.1rem;
+}
+
+
+#nav{
+  position: relative;
+  left: -0.1px;
+}
+
+.body{
+  overflow: hidden;
+}
+.imga{
+  border: 600px;
+  color: blue;
+}
+.div1>h1{
+  padding-left: 25px;
+  text-align: left;
+  justify-content: left;
+  font-weight: bolder;
+}
+.div1 p{
+  font-weight: normal;
+  text-align: left;
+  padding-left: 20px; 
+  margin-bottom: 30px;
+}
+.div2>h1{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+.div2 p{
+  text-align: center;
+  padding-right: 20px;
+}
+.div3>h1{
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: red
+}
+hr{
+  width: 70%;
+  position: relative;
+  left: 50px;
+}
+.div3 p{
+  padding-left: 16px;
+  text-align: left;
+}
+.div3btn{
+  background-color: blue;
+  position: relative;
+  right: 100px;
+  border-radius: 5px;
+}
+.div4>h1{
+  margin-top: 20px;
+  font-weight: bold;
+  width: 100%;
+  
+}
+.div4p{
+  text-align: center;
+  padding-left: 7px;
+}
+.div4 button{
+  background-color: blue;
+  border-radius: 5px;
+}
+.getc{
+  border: 2px solid black;
+  color: black;
+  position: relative;
+  right: 16px;
+  padding: 3px;
+  margin: 7px;
+}
+.getf{
+  border: 2px solid black;
+  color: black;
+  position: relative;
+  right: 18px;
+  padding: 3px; 
+}  
+.chm{
+  box-shadow: 0 0 20px 0 grey ;
+  margin: auto;
+  padding: 10px 0;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.fire{
+  box-shadow: 0 0 20px 0 grey ;
+  margin: auto;
+  padding: 10px 0;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.opera{
+  box-shadow: 0 0 20px 0 grey ;
+  margin: auto;
+  padding: 10px 0;
+  width: 80%;
+  margin-bottom: 70px;
+}
+#Acc p{
+  text-align: left;
+  padding: 20px;
+}
+#Acc>p{
+  text-align: center;
+  position: relative;
+  bottom: -5px;
+}
+#Acc h1{
+  text-align: center;
+  font-weight: bold;
+  padding-right: 20px;
+}
+#moreinfo{
+  background-color: blue;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.foot{
+  margin-top: 30px;
+}
+#footer1{
+  padding: 15px 0;
+  color: white;
+  background-color: blue;
+}
+#footer1 p{
+  font-weight: bold;
+  letter-spacing: 3px;
+  
+}
+#footer1 h2{
+  text-align: center;
+}
+.p1{
+  margin-top: 10px;
+}
+.p2{
+  background-color: red;
+  font-weight: bold;
+  width: 190px;
+  border-radius: 7px;
+  color: white;
+  margin-top: 3px;
+}
+#footer2{
+  background-color: indigo;
+  height: 300px;
+  margin: auto;
+  padding-top: 30px;
+}
+#footer2 a{
+  color: white;
+  line-height: 60px;
+}
+.imgt{
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .body{
+    background-color: red;
+  }
+  
+  .div1>h1{
+    padding-left: 40px;
+  }
+  .div1 p{
+    text-align: center;
+    padding-right: 8px;
+  }
+  a{
+    color: chocolate;
+  }
+  hr{
+    position: relative;
+    left: 50px;
+    width: 80%;
+  }
+  .div3 p{
+    text-align: center;
+    padding-right: 8px;
+  }
+  .div3btn{
+    position: relative;
+    right: 1px;
+    background-color: chocolate;
+  }
+  .div4 p{
+    text-align: center;
+    padding-right: 8px;
+  }
+  .div4 button{
+    background-color: chocolate;
+  }
+  #moreinfo{
+    background-color: chocolate;
+  }
+  #footer1{
+    background-color: chocolate;
+  }
+  #footer2{
+    background-color: forestgreen;
+  }
+}
